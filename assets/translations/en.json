@@ -1,0 +1,642 @@
+{
+  "app_name": "Systego",
+
+  "bank_accounts_title": "Financial Accounts",
+  "bank_accounts_no_accounts": "No financial accounts",
+  "bank_accounts_no_accounts_message": "You're all caught up!",
+  "retry": "Retry",
+  "empty_message_connection": "Pull to refresh or check your connection",
+
+  "bank_accounts_total_balance": "Total Balance",
+
+  "bank_accounts_account_number": "Account Number",
+  "bank_accounts_initial_balance": "Initial Balance",
+  "bank_accounts_note": "Note:",
+  "bank_accounts_active": "Active",
+  "bank_accounts_inactive": "Inactive",
+
+    "edit_bank_account": "Edit Financial Account",
+    "new_bank_account": "New Financial Account",
+    "update_account_details": "Update account details",
+    "add_new_bank_account": "Add a new financial account",
+    
+    "bank_icon": "Account Icon",
+    "bank_name_en": "Account Name (En)",
+    "bank_name_ar": "Account Name (Ar)",
+    "account_number": "Account Number",
+    "initial_balance": "Initial Balance",
+    "note": "Note",
+    "active": "Active",
+    
+    "hint_bank_name_en": "Enter account name in english",
+    "hint_bank_name_ar": "Enter account name in arabic",
+    "hint_account_number": "Enter account number",
+    "hint_initial_balance": "Enter initial balance",
+    "hint_note": "Add a note (optional)",
+    
+    "tap_to_select_image": "Tap to select image",
+    "failed_to_load_image": "Failed to load image",
+    
+    "validation_required": "Please enter {field}",
+    
+    "cancel": "Cancel",
+    "update_account": "Update Account",
+    "create_account": "Create Account",
+    
+    "select_bank_account": "Select Bank Account",
+  "select_bank_account_message": "Are you sure you want to select this bank account as the default? ",
+  "select": "Select",
+  "delete_bank_account": "Delete Financial Account",
+  "delete_bank_account_message": "Are you sure you want to delete this financial account? ",
+  "invalid_bank_account_id": "Invalid Bank Account ID",
+  "invalid_account_id": "Invalid Financial Account ID",
+
+   "brands_title": "Brands",
+  "no_brands_available": "No Brands Available",
+  "no_matching_brands": "No Matching Brands",
+  "add_first_brand_message": "Add your first brand to get started",
+  "try_adjusting_search": "Try adjusting your search terms",
+  "error_occurred": "Error Occurred",
+  "search_brands": "Search Brands",
+  "success": "Success!",
+
+  "new_brand": "New Brand",
+  "brand_name": "Brand Name",
+  "enter_brand_name": "Enter brand name",
+  "brand_logo": "Brand Logo",
+  "tap_to_upload": "Tap to upload",
+  "remove": "Remove",
+  "save_brand": "Save Brand",
+  "saving_brand": "Saving Brand",
+  "please_enter_brand_name": "Please enter brand name",
+  "please_select_logo": "Please select a logo",
+
+  "edit_brand": "Edit Brand",
+  "update_brand": "Update Brand",
+  "new_logo_selected": "New logo selected",
+  "tap_to_select_logo": "Tap to select a logo",
+
+   "brand": "Brand",
+  "created": "Created",
+  "updated": "Updated",
+  "not_available": "N/A",
+
+   "delete_brand": "Delete Brand",
+  "delete_confirmation": "Are you sure you want to delete",
+  "this_action_cannot_be_undone": "This action cannot be undone.",
+  "delete": "Delete",
+
+  "categories_title": "Categories",
+  "no_categories_available": "No Categories Available",
+  "no_matching_categories": "No Matching Categories",
+  "add_first_category_message": "Add your first category to get started",
+  "try_adjusting_search_terms": "Try adjusting your search terms",
+  "search_categories": "Search Categories",
+  "category": "Category",
+  "edit_category": "Edit Category",
+  "update_category": "Update Category",
+  "new_category": "New Category",
+  "create_category": "Create Category",
+  "delete_category": "Delete Category",
+
+   "enter_category_name_en": "Enter Category Name (EN)",
+  "enter_category_name_ar": "Enter Category Name (AR)",
+  "set_as_parent_category": "Set as an independent (or parent) category",
+  "parent_category": "Parent Category",
+  "loading_parent_categories": "Loading Parent Categories...",
+  "no_parent_categories": "No parent categories available. Create a parent category first.",
+  "select_parent_category": "Select parent category",
+  "category_image": "Category Image*",
+  "save_category": "Save Category",
+  "saving_category": "Saving Category",
+  "please_enter_category_name": "Please enter category name",
+  "please_select_image": "Please select an image",
+  "please_select_parent_category": "Please select a parent category",
+
+  "edit_category_title": "Edit Category",
+  "category_name_en": "Category Name (EN)",
+  "category_name_ar": "Category Name (AR)",
+  "parent_category_optional": "Parent Category (Optional)",
+  "none": "None",
+  "new_image_selected": "New image selected",
+  "update_category_button": "Update Category",
+  "please_enter_category_name_en_ar": "Please enter category name in English & Arabic",
+
+  "no_image": "No Image",
+  "products": "Products",
+  "parent": "Parent",
+
+  "search_by_category_name": "Search by category name",
+
+
+  "no_cities": "No cities",
+  "no_matching_cities": "No matching cities",
+  "all_caught_up": "You're all caught up!",
+  "try_adjusting_filters": "Try adjusting your filters",
+
+  "empty_connection": "Pull to refresh or check your connection",
+
+  "create_city": "Create City",
+  "edit_city": "Edit City",
+  "update_city": "Update City",
+  "new_city": "New City",
+
+  "delete_city": "Delete City",
+  "delete_city_message": "Are you sure you want to delete this city?",
+  "select_city": "Select City",
+  "select_city_message": "Are you sure you want to select this city?",
+  
+  "city": "City",
+  "cities": "Cities",
+
+  "country": "Country",
+  "unknown": "Unknown",
+  "selected_city": "Selected City",
+
+    "invalid_city_id": "Invalid City ID",
+
+
+     "city_dialog_new_city": "New City",
+  "city_dialog_edit_city": "Edit City",
+  "city_dialog_add_new_city": "Add a new City",
+  "city_dialog_update_city_details": "Update City details",
+
+  "city_name_en": "City Name (EN)",
+  "city_name_ar": "City Name (AR)",
+  "shipping_cost": "Shipping Cost",
+
+  "hint_city_name_en": "Enter city name in English",
+  "hint_city_name_ar": "Enter city name in Arabic",
+  "hint_select_country": "Select a country",
+  "hint_shipping_cost": "Enter shipping cost",
+
+  "validation_select_country": "Please select a country",
+
+  "error_creating_city": "Failed to create city",
+  "error_updating_city": "Failed to update city",
+
+
+  "countries_title": "Countries",
+  "no_countries": "No countries",
+  "no_matching_countries": "No Matching countries",
+
+  "create_country": "Create Country",
+  "edit_country": "Edit Country",
+  "update_country": "Update Country",
+  "new_country": "New Country",
+
+  "delete_country": "Delete Country",
+  "delete_country_message": "Are you sure you want to delete this country?",
+  "select_country": "Select Country",
+  "select_country_message": "Are you sure you want to select this country?",
+
+  "country_name_en": "Country Name (EN)",
+  "country_name_ar": "Country Name (AR)",
+  "hint_country_name_en": "Enter country name in English",
+  "hint_country_name_ar": "Enter country name in Arabic",
+
+  "error_creating_country": "Failed to create country",
+  "error_updating_country": "Failed to update country",
+  "error_deleting_country": "Failed to delete country",
+  "error_selecting_country": "Failed to select country",
+  "success_creating_country": "Country created successfully",
+  "success_updating_country": "Country updated successfully",
+  "success_deleting_country": "Country deleted successfully",
+  "success_selecting_country": "Country selected successfully",
+
+  "selected_country": "Selected Country",
+
+
+  "invalid_country_id": "Invalid Country ID",
+  "delete_country_title": "Delete Country",
+  "select_country_title": "Select Country",
+
+  "add_new_country": "Add a new Country",
+  "update_country_details": "Update Country details",
+
+
+  "coupons_title": "Coupons",
+  "no_coupons": "No coupons",
+  "no_matching_coupons": "No matching coupons",
+  "coupons_try_adjusting_filters": "Try adjusting your filters",
+  "empty_coupons_connection": "Pull to refresh or check your connection",
+
+  "create_coupon": "Create Coupon",
+  "edit_coupon": "Edit Coupon",
+  "update_coupon": "Update Coupon",
+  "new_coupon": "New Coupon",
+
+  "delete_coupon": "Delete Coupon",
+  "delete_coupon_message": "Are you sure you want to delete this coupon?",
+
+  "invalid_coupon_id": "Invalid Coupon ID",
+
+  "success_creating_coupon": "Coupon created successfully",
+  "success_updating_coupon": "Coupon updated successfully",
+  "success_deleting_coupon": "Coupon deleted successfully",
+
+  "error_creating_coupon": "Failed to create coupon",
+  "error_updating_coupon": "Failed to update coupon",
+  "error_deleting_coupon": "Failed to delete coupon",
+  "error_fetching_coupons": "Failed to load coupons",
+
+  "coupon_code": "Coupon Code",
+  "discount_type": "Discount Type",
+  "discount_value": "Discount Value",
+  "minimum_order_value": "Minimum Order Value",
+  "expiration_date": "Expiration Date",
+
+  "hint_coupon_code": "Enter coupon code",
+  "hint_discount_value": "Enter discount value",
+  "hint_minimum_order_value": "Enter minimum order value",
+
+  "validation_coupon_code": "Please enter coupon code",
+  "validation_discount_value": "Please enter discount value",
+  "validation_expiration_date": "Please select an expiration date",
+
+  "save_coupon": "Save Coupon",
+  "updating_coupon": "Updating Coupon...",
+  "creating_coupon": "Creating Coupon...",
+
+  "type": "Type",
+  "coupon_amount": "Amount",
+  "coupon_minimum_amount": "Minimum Amount",
+  "coupon_quantity": "Quantity",
+  "coupon_available": "Available",
+  "coupon_expiry": "Expiry",
+
+  "coupon_type": "Coupon Type",
+
+
+    "select_coupon_type": "Select coupon type",
+  "enter_minimum_order_amount": "Enter minimum order amount",
+  "enter_total_coupon_quantity": "Enter total coupon quantity",
+  "enter_total_available_coupons": "Enter total available coupons",
+  "pick_expiration_date": "Pick expiration date",
+  "please_enter_minimum_amount": "Enter minimum amount",
+  "please_enter_quantity": "Enter quantity",
+  "please_enter_available_count": "Enter available count",
+  "invalid_number": "Invalid number",
+  "please_select_type": "Please select type",
+
+  "enter_amount": "Enter Amount",
+
+  "minimum_order_amount": "Minimum Order Amount",
+
+  "minimum_amount_to_apply_coupon": "Minimum amount to apply coupon",
+
+
+  "minimum_amount_to_apply_coupon_hint": "Minimum amount to apply coupon",
+  "enter_quantity": "Enter quantity",
+  "total_coupon_quantity_hint": "Total coupon quantity",
+  "enter_available_count": "Enter available count",
+  "total_available_coupons_hint": "Total available coupons",
+  "expired_date_label": "Expired Date",
+  "pick_expiration_date_hint": "Pick expiration date",
+  "pick_expiration_date_validation": "Pick expiration date",
+  "invalid_available_number": "Invalid number",
+  "enter_available_count_validation": "Enter available count",
+
+  "currencies_title": "Currencies",
+  "no_currencies": "No Currencies",
+  "no_matching_currencies": "No Matching Currencies",
+
+  "created_at": "Created At",
+
+  "delete_currency": "Delete Currency",
+  "delete_currency_message": "Are you sure you want to delete this currency? ",
+  "invalid_currency_id": "Invalid Currency ID",
+
+
+  "currency_name_en_label": "Currency Name (EN)",
+  "currency_name_ar_label": "Currency Name (AR)",
+  "hint_currency_name_en": "Enter currency name in English",
+  "hint_currency_name_ar_dialog": "Enter currency name in Arabic",
+  
+  "edit_currency": "Edit Currency",
+  "new_currency": "New Currency",
+  "update_currency_details": "Update currency details",
+  "add_new_currency": "Add a new currency",
+  
+  "update_currency_button": "Update Currency",
+  "create_currency_button": "Create Currency",
+
+  "validation_currency_name_en": "currency name in english",
+  "validation_currency_name_ar": "currency name in arabic",
+
+  "departments_title": "Departments",
+  "no_departments": "No departments",
+  "no_matching_departments": "No Matching departments",
+
+  "department_description": "Department Description",
+
+"department_name_en": "Department Name (En)",
+  "department_name_ar": "Department Name (AR)",
+  "hint_department_name_en": "Enter department name in english",
+  "hint_department_name_ar": "Enter department name in Arabic",
+  
+  "department_description_en": "Department Description (En)",
+  "department_description_ar": "Department Description (AR)",
+  "hint_department_description_en": "Enter department description in english",
+  "hint_department_description_ar": "Enter Department Description in Arabic",
+  
+  "edit_department": "Edit Department",
+  "new_department": "New Department",
+  "update_department_details": "Update Department details",
+  "add_new_department": "Add a new Department",
+  
+  "update_department_button": "Update Department",
+  "create_department_button": "Create Department",
+
+  "validation_department_name_en": "department name in english",
+  "validation_department_name_ar": "department name in arabic",
+  "validation_department_description_en": "department description in english",
+  "validation_department_description_ar": "department description in arabic",
+
+  "invalid_department_id": "Invalid Department ID",
+  "delete_department_title": "Delete Department",
+  "delete_department_message": "Are you sure you want to delete this Department? ",
+
+  "discount_amount": "Discount Amount",
+  "invalid_discount_id": "Invalid Discount ID",
+  "delete_discount": "Delete Discount",
+  "delete_discount_message": "Are you sure you want to delete this discount?",
+  "discount_status": "Discount Status",
+  "discount_name": "Discount Name",
+  "hint_discount_name": "Enter discount name",
+  "select_discount_type": "Select Discount Type",
+  "edit_discount": "Edit Discount",
+  "new_discount": "New Discount",
+  "no_discounts": "No discounts",
+  "discounts_title": "Discounts",
+  "discount_created_successfully": "Discount created successfully",
+  "discount_updated_successfully": "Discount updated successfully",
+  "discount_deleted_successfully": "Discount deleted successfully",
+  "no_matching_discounts": "No Matching Discounts",
+
+  "update_discount": "Update Discount",
+  "create_discount": "Create Discount",
+
+
+"brand_ar_name": "Brand Name (AR)",
+"enter_brand_ar_name": "Enter brand name in arabic",
+"please_enter_brand_ar_name": "Please enter arabic brand name",
+
+ "new_popup": "New Popup",
+  "popup_title_en": "Popup Title (En)",
+  "popup_title_ar": "Popup Title (Ar)",
+  "popup_description_en": "Popup Description (En)",
+  "popup_description_ar": "Popup Description (Ar)",
+  "popup_link": "Popup Link",
+  "enter_popup_title_en": "Enter Popup title in english",
+  "enter_popup_title_ar": "Enter Popup title in arabic",
+  "enter_popup_description_en": "Enter Popup description in english",
+  "enter_popup_description_ar": "Enter Popup description in arabic",
+  "enter_popup_link": "Enter Popup link",
+  "popup_english_image": "Popup English Image",
+  "popup_arabic_image": "Popup Arabic Image",
+  "saving_popup": "Saving Popup",
+  "save_popup": "Save Popup",
+  "warning_enter_title_en": "Please enter Popup title in English",
+  "warning_enter_title_ar": "Please enter Popup title in Arabic",
+  "warning_enter_description_en": "Please enter Popup description in English",
+  "warning_enter_description_ar": "Please enter Popup description in Arabic",
+  "warning_select_en_image": "Please select an English image",
+  "warning_select_ar_image": "Please select an Arabic image",
+
+
+    "edit_popup": "Edit Popup",
+
+
+  "updating_popup": "Updating Popup",
+  "update_popup": "Update Popup",
+
+  "warning_title_en": "Please enter Popup title in English",
+  "warning_title_ar": "Please enter Popup title in Arabic",
+
+    "popups_title": "Pop Ups",
+  "no_popups_title": "No Popups",
+  "no_popups_message": "You're all caught up!",
+  "no_popups_default_message": "Pull to refresh or check your connection",
+  "no_popups_icon_alt": "No popups",
+  "popups_list_empty": "No popups available",
+
+
+    "reasons": "Reasons",
+  "no_reasons": "No Reasons",
+  "no_reasons_available": "No reasons available yet",
+  "delete_reason": "Delete Reason",
+  "delete_reason_message": "Are you sure you want to delete this reason?",
+  "invalid_reason_id": "Invalid Reason ID",
+  "reason_text": "Reason",
+  "hint_enter_reason": "Enter reason text",
+  "edit_reason": "Edit Reason",
+  "new_reason": "New Reason",
+  "reason_dialog_update_details": "Update reason details",
+  "reason_dialog_add_new": "Add a new reason",
+  "update_reason": "Update Reason",
+  "create_reason": "Create Reason",
+
+
+  "no_adjustments": "No Adjustments",
+"no_matching_adjustments": "No Matching Adjustments",
+"adjustments_all_caught_up": "All caught up with adjustments!",
+"adjustments": "Adjustments",
+"reason": "Reason",
+"invalid_adjustment_id": "Invalid Adjustment ID",
+"delete_adjustment": "Delete Adjustment",
+"delete_adjustment_message": "Are you sure you want to delete this adjustment?",
+"warehouse_id": "Warehouse ID",
+"hint_warehouse_id": "Enter warehouse ID",
+"product_id": "Product ID",
+"hint_product_id": "Enter product ID",
+"quantity": "Quantity",
+"hint_quantity": "Enter quantity",
+"hint_select_reason": "Select a reason",
+"validation_select_reason": "Please select a reason",
+
+"image": "Image",
+"hint_image": "Enter image",
+"edit_adjustment": "Edit Adjustment",
+"new_adjustment": "New Adjustment",
+"adjustment_dialog_update_details": "Update the adjustment details",
+"adjustment_dialog_add_new": "Add a new adjustment",
+"update_adjustment": "Update Adjustment",
+"create_adjustment": "Create Adjustment",
+
+  "suppliers_title": "Suppliers",
+
+  "no_suppliers_title": "No Suppliers Yet",
+  "no_suppliers_message": "There are no suppliers available at the moment.",
+
+  "no_results_title": "No Results Found",
+  "no_results_message": "Try adjusting your search or filters.",
+  "clear_filters": "Clear Filters",
+
+   "invalid_supplier_id": "Invalid supplier ID",
+
+  "supplier_details_title": "Supplier Details",
+
+
+  "no_supplier_data": "No supplier data available",
+
+
+   "unknown_supplier": "Unknown",
+  "no_company": "No Company",
+
+  "delete_supplier_title": "Delete Supplier",
+  "delete_supplier_message": "Are you sure you want to delete this supplier? This action cannot be undone.",
+
+
+    "search_hint": "Search by name or company...",
+  "country_hint": "Country",
+  "city_hint": "City",
+
+  "address": "Address",
+
+    "contact_information": "Contact Information",
+  "email": "Email",
+  "phone_number": "Phone Number",
+
+
+   "location_details": "Location Details",
+
+  "create_supplier": "Create Supplier",
+  "update_supplier": "Update Supplier",
+
+   "supplier_image": "Supplier Image",
+  "supplier_name": "Supplier Name",
+  "enter_supplier_name": "Enter supplier name",
+  "company_name": "Company Name",
+  "enter_company_name": "Enter company name",
+  "email_address": "Email Address",
+  "enter_email_address": "Enter email address",
+  "enter_phone_number": "Enter phone number",
+  "enter_supplier_address": "Enter supplier address",
+  "select_country_first": "Select country first",
+  "no_options_available": "No options available",
+  "processing": "Processing...",
+
+    "edit_supplier": "Edit Supplier",
+  "new_supplier": "New Supplier",
+  "update_supplier_details": "Update supplier details",
+  "add_new_supplier": "Add a new supplier",
+
+  "failed_to_pick_image": "Failed to pick image",
+  "please_select_country": "Please select a country",
+  "please_select_city": "Please select a city",
+  "supplier_updated_successfully": "Supplier updated successfully",
+  "supplier_created_successfully": "Supplier created successfully",
+
+
+  "no_taxes": "No taxes",
+  "no_matching_taxes": "No Matching taxes",
+  "pull_to_refresh_or_check_connection": "Pull to refresh or check your connection",
+  "taxes": "Taxes",
+
+    "invalid_tax_id": "Invalid Tax ID",
+  "delete_tax": "Delete Tax",
+  "delete_tax_message": "Are you sure you want to delete this Tax?",
+
+  "tax_name_en": "Tax Name (EN)",
+  "tax_name_en_hint": "Enter tax name in English",
+  "tax_name_ar": "Tax Name (AR)",
+  "tax_name_ar_hint": "Enter tax name in Arabic",
+  "tax_type": "Tax Type",
+  "tax_type_hint": "Select Tax Type",
+  "amount": "Amount",
+  "amount_hint": "Enter Tax Amount",
+  "tax_type_fixed": "Fixed",
+  "tax_type_percentage": "Percentage",
+  "please_select_tax_type": "Please select a tax type",
+  "please_enter_tax_amount": "Please enter a tax amount",
+  "amount_must_be_valid_number": "Amount must be a valid number",
+  "amount_must_be_greater_than_zero": "Amount must be greater than zero",
+  "new_tax": "New Tax",
+  "edit_tax": "Edit Tax",
+  "add_new_tax": "Add a new Tax",
+  "update_tax_details": "Update Tax details",
+  "create_tax": "Create Tax",
+  "update_tax": "Update Tax",
+
+
+  "warehouses": "Warehouses",
+  "warehouse_deleted_success": "Warehouse deleted successfully!",
+  "warehouse_created_success": "Warehouse created successfully!",
+  "warehouse_updated_success": "Warehouse updated successfully!",
+  "no_warehouses_found": "No Warehouses Found",
+  "add_first_warehouse_message": "Add your first warehouse to get started",
+  "no_results_found": "No Results Found",
+  "try_different_keywords": "Try searching with different keywords",
+  "delete_warehouse": "Delete Warehouse",
+  "delete_warehouse_message": "Are you sure you want to delete? This action cannot be undone.",
+  "invalid_warehouse_id": "Invalid warehouse ID",
+
+  "create_warehouse": "Create Warehouse",
+  "update_warehouse": "Update Warehouse",
+
+
+   "warehouse_name": "Warehouse Name",
+  "enter_warehouse_name": "Enter warehouse name",
+
+  "enter_warehouse_address": "Enter warehouse address",
+
+  "warehouse_name_required": "Warehouse name is required",
+  "address_required": "Address is required",
+
+
+   "edit_warehouse": "Edit Warehouse",
+  "new_warehouse": "New Warehouse",
+
+  "update_warehouse_details": "Update warehouse details",
+  "add_new_warehouse": "Add a new warehouse",
+
+
+    "warehouse_default_name": "Warehouse",
+  "warehouse_no_address": "No address",
+  "warehouse_products": "Products",
+  "warehouse_stock": "Stock",
+  "warehouse_no_phone": "No phone",
+  "warehouse_no_email": "No email",
+
+
+   "zones_screen_title": "Zones",
+  "no_zones_title": "No Zones",
+  "no_matching_zones_title": "No Matching Zones",
+  "no_zones_message": "You're all caught up!",
+  "no_matching_zones_message": "Try adjusting your filters",
+  "empty_state_message_connection": "Pull to refresh or check your connection",
+
+
+  
+  "invalid_zone_id": "Invalid Zone ID",
+  "delete_zone_title": "Delete Zone",
+  "delete_zone_message": "Are you sure you want to delete this zone?",
+  "select_zone_title": "Select Zone",
+  "select_zone_message": "Are you sure you want to select this Zone as the default?",
+
+
+   "zone_name_en": "Zone Name (EN)",
+  "enter_zone_name_en": "Enter Zone name in English",
+  "zone_name_ar": "Zone Name (AR)",
+  "enter_zone_name_ar": "Enter Zone name in Arabic",
+
+  "cost": "Cost",
+  "enter_cost": "Enter cost",
+  "please_select_country_city": "Please select both country and city",
+  "edit_zone": "Edit Zone",
+  "update_zone_details": "Update Zone details",
+  "new_zone": "New Zone",
+  "add_new_zone": "Add a new Zone",
+  "update_zone": "Update Zone",
+  "create_zone": "Create Zone",
+
+
+  "payment_methods_screen_title": "Payment Methods",
+  "no_payment_methods_title": "No Payment Methods",
+  "no_matching_payment_methods_title": "No Matching Payment Methods",
+  "no_payment_methods_message": "You're all caught up!",
+  "no_matching_payment_methods_message": "Try adjusting your filters"
+
+
+}
