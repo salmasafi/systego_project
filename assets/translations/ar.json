@@ -1,5 +1,5 @@
 {
-  "app_name": "سيستيجو",
+  "app_name": "Systego",
 
   "bank_accounts_title": "الحسابات البنكية",
   "bank_accounts_no_accounts": "لا يوجد حسابات بنكية",
@@ -630,7 +630,215 @@
   "no_payment_methods_title": "لا توجد طرق دفع",
   "no_matching_payment_methods_title": "لا توجد طرق دفع مطابقة",
   "no_payment_methods_message": "لقد وصلت إلى النهاية!",
-  "no_matching_payment_methods_message": "حاول تعديل عوامل التصفية"
+  "no_matching_payment_methods_message": "حاول تعديل عوامل التصفية",
 
+
+  "tax_type_label": "النوع:",
+  "tax_amount_label": "المبلغ:",
+
+
+   "new_variation": "تنويعة جديدة",
+
+  "variation_name_en": "اسم التنويعة (بالإنجليزية)",
+  "enter_variation_name_en": "أدخل اسم التنويعة بالإنجليزية",
+
+  "variation_name_ar": "اسم التنويعة (بالعربية)",
+  "enter_variation_name_ar": "أدخل اسم التنويعة بالعربية",
+
+  "options": "الخيارات",
+  "option_name": "اسم الخيار",
+  "add_option": "إضافة خيار",
+
+  "save_variation": "حفظ التنويعة",
+  "saving_variation": "جارٍ حفظ التنويعة",
+
+  "variation_name_en_required": "يرجى إدخال اسم التنويعة بالإنجليزية",
+  "variation_name_ar_required": "يرجى إدخال اسم التنويعة بالعربية",
+  "add_at_least_one_option": "يرجى إضافة خيار واحد على الأقل",
+  "all_options_must_have_name": "يجب أن تحتوي جميع الخيارات على اسم",
+
+
+   "edit_variation_title": "تعديل التنويعة",
+
+  "variation_name_en_label": "اسم التنويعة (بالإنجليزية)",
+  "variation_name_en_hint": "أدخل اسم التنويعة بالإنجليزية",
+
+  "variation_name_ar_label": "اسم التنويعة (بالعربية)",
+  "variation_name_ar_hint": "أدخل اسم التنويعة بالعربية",
+
+  "options_title": "الخيارات",
+  "option_name_hint": "اسم الخيار",
+
+  "update_variation": "تحديث التنويعة",
+  "updating": "جارٍ التحديث...",
+
+  "delete_option_title": "حذف الخيار",
+  "delete_option_message": "هل أنت متأكد أنك تريد حذف هذا الخيار؟",
+
+
+   "variations_title": "التنويعات",
+
+  "no_variations_title": "لا توجد تنويعات",
+  "no_variations_message": "لقد وصلت إلى النهاية!",
+
+  "no_variations_alt_title": "لا توجد تنويعات",
+  "no_variations_alt_message": "اسحب للتحديث أو تحقق من اتصالك",
+
+    "delete_variation_title": "حذف التنويعة",
+  "delete_variation_message": "هل أنت متأكد أنك تريد الحذف؟",
+
+    "options_label": "الخيارات:",
+  "active_label": "نشط:",
+  "inactive_label": "غير نشط:",
+  "no_active_items": "لا توجد عناصر نشطة",
+  "no_inactive_items": "لا توجد عناصر غير نشطة",
+
+
+  "failed_to_load_warehouses": "فشل في تحميل المستودعات: ",
+  "creating_warehouse": "جارٍ إنشاء المستودع...",
+  "failed_to_create_warehouse": "فشل في إنشاء المستودع: ",
+  "updating_warehouse": "جارٍ تحديث المستودع...",
+  "failed_to_update_warehouse": "فشل في تحديث المستودع: ",
+  "deleting_warehouse": "جارٍ حذف المستودع...",
+  "failed_to_delete_warehouse": "فشل في حذف المستودع: ",
+
+  "invalid_variation_id": "معرّف التنويعة غير صالح",
+
+
+   "variation_created_success": "تم إنشاء التنويعة بنجاح",
+  "variation_updated_success": "تم تحديث التنويعة بنجاح",
+  "option_deleted_success": "تم حذف الخيار بنجاح",
+  "variation_deleted_success": "تم حذف التنويعة بنجاح",
+
+
+   "tax_created_success": "تم إنشاء الضريبة بنجاح",
+  "tax_updated_success": "تم تحديث الضريبة بنجاح",
+  "tax_deleted_success": "تم حذف الضريبة بنجاح",
+  "tax_activated": "تم تفعيل الضريبة الآن",
+  "tax_deactivated": "تم إيقاف الضريبة الآن",
+
+
+  "settings": "الإعدادات",
+  "language": "اللغة",
+  "select_language": "اختر اللغة",
+  "language_changed": "تم تغيير اللغة إلى ",
+  "english": "الإنجليزية",
+  "arabic": "العربية",
+
+
+  "no_reason_text": "لا يوجد نص للسبب",
+
+    "reason_created_success": "تم إنشاء السبب بنجاح",
+  "reason_updated_success": "تم تحديث السبب بنجاح",
+  "reason_deleted_success": "تم حذف السبب بنجاح",
+  "unknown_error": "حدث خطأ غير معروف",
+  "server_error": "خطأ في الخادم: ",
+
+
+   "invalid_popup_id": "معرّف النافذة المنبثقة غير صالح",
+  "delete_popup_title": "حذف النافذة المنبثقة",
+  "delete_popup_message": "هل أنت متأكد أنك تريد حذف هذه النافذة المنبثقة؟",
+
+  "popup_created_success": "تم إنشاء النافذة المنبثقة بنجاح",
+  "popup_updated_success": "تم تحديث النافذة المنبثقة بنجاح",
+  "popup_deleted_success": "تم حذف النافذة المنبثقة بنجاح",
+
+
+    "payment_method_name_en": "اسم طريقة الدفع (بالإنجليزية)",
+  "enter_payment_method_name_en": "أدخل اسم طريقة الدفع بالإنجليزية",
+  "payment_method_name_ar": "اسم طريقة الدفع (بالعربية)",
+  "enter_payment_method_name_ar": "أدخل اسم طريقة الدفع بالعربية",
+  "select_tax_type": "اختر نوع الضريبة",
+  "description": "الوصف",
+  "enter_description": "أدخل الوصف",
+  "payment_icon": "أيقونة الدفع",
+
+  "edit_payment_method": "تعديل طريقة الدفع",
+  "new_payment_method": "طريقة دفع جديدة",
+  "update_payment_method_details": "تحديث تفاصيل طريقة الدفع",
+  "add_a_new_payment_method": "إضافة طريقة دفع جديدة",
+  "update_payment_method": "تحديث طريقة الدفع",
+  "create_payment_method": "إنشاء طريقة دفع",
+
+   "invalid_payment_method_id": "معرّف طريقة الدفع غير صالح",
+  "delete_payment_method": "حذف طريقة الدفع",
+  "delete_payment_method_message": "هل أنت متأكد أنك تريد حذف طريقة الدفع هذه؟",
+
+
+  "payment_method_created_success": "تم إنشاء طريقة الدفع بنجاح",
+  "payment_method_updated_success": "تم تحديث طريقة الدفع بنجاح",
+  "payment_method_deleted_success": "تم حذف طريقة الدفع بنجاح",
+  "delete_payment_method_title": "حذف طريقة الدفع",
+
+    "dashboard": "لوحة التحكم",
+  "point_of_sale": "نقطة البيع",
+  "exit": "خروج",
+
+  "default_currency": "العملة الافتراضية",
+
+  "default_value": "افتراضي",
+
+   "currency_created_success": "تم إنشاء العملة بنجاح",
+  "currency_updated_success": "تم تحديث العملة بنجاح",
+  "currency_deleted_success": "تم حذف العملة بنجاح",
+
+   "coupon_created_success": "تم إنشاء الكوبون بنجاح",
+  "coupon_updated_success": "تم تحديث الكوبون بنجاح",
+  "coupon_deleted_success": "تم حذف الكوبون بنجاح",
+
+  "financial_accounts": "الحسابات المالية",
+
+  "warehouse": "المستودع:",
+  "balance": "الرصيد:",
+  "in_pos": "في نقطة البيع",
+  "not_in_pos": "غير موجود في نقطة البيع",
+
+
+  "select_warehouse": "اختر المستودع",
+  "please_select_warehouse": "يرجى اختيار المستودع",
+
+  "financial_account_created_successfully": "تم إنشاء الحساب المالي بنجاح",
+  "financial_account_updated_successfully": "تم تحديث الحساب المالي بنجاح",
+  "financial_account_deleted_successfully": "تم حذف الحساب المالي بنجاح",
+  "default_bank_account_message": "هو الآن الحساب البنكي الافتراضي",
+
+
+  "password": "كلمة المرور",
+  "login": "تسجيل الدخول",
+  "login_successful": "تم تسجيل الدخول بنجاح!",
+
+
+  "manage_your_business": "إدارة عملك",
+
+
+  "admins": "المسؤولون",
+  "no_admins": "لا يوجد مسؤولون",
+
+  "edit_admin_permissions": "تعديل صلاحيات المسؤول",
+  "saving": "جارٍ الحفظ",
+  "save": "حفظ",
+
+  "role": "الدور",
+
+   "username": "اسم المستخدم",
+  "phone": "رقم الهاتف",
+  "select_role": "اختر الدور",
+  "edit_admin": "تعديل المسؤول",
+  "new_admin": "مسؤول جديد",
+  "update_admin": "تحديث المسؤول",
+  "add_new_admin": "إضافة مسؤول جديد",
+  "please_select_role": "يرجى اختيار الدور",
+
+  "delete_admin": "حذف المسؤول",
+  "delete_admin_message": "هل أنت متأكد أنك تريد حذف هذا المسؤول؟",
+  "invalid_admin_id": "معرّف المسؤول غير صالح",
+
+  "admin_created": "تم إنشاء المسؤول بنجاح",
+  "admin_updated": "تم تحديث المسؤول بنجاح",
+  "admin_deleted": "تم حذف المسؤول بنجاح",
+
+  "permissions_updated": "تم تحديث الصلاحيات بنجاح",
+  "permissions_load_failed": "فشل في تحميل الصلاحيات",
+  "permissions_update_failed": "فشل في تحديث الصلاحيات"
 
 }

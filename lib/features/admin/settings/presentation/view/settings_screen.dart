@@ -5,6 +5,7 @@ import 'package:systego/core/utils/responsive_ui.dart';
 import 'package:systego/core/widgets/custom_snack_bar/custom_snackbar.dart';
 import 'package:systego/core/widgets/animation/animated_element.dart';
 import 'package:systego/core/widgets/app_bar_widgets.dart';
+import 'package:systego/generated/locale_keys.g.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -18,8 +19,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
   void didChangeDependencies() {
     super.didChangeDependencies();
     _selectedLanguage = context.locale.languageCode == 'ar'
-        ? 'Arabic'
-        : 'English';
+         ? LocaleKeys.arabic.tr()
+        : LocaleKeys.english.tr();
   }
 
   void _changeAppLanguage(String language) {
@@ -31,14 +32,14 @@ class _SettingsScreenState extends State<SettingsScreen> {
   }
 
   String? _selectedLanguage;
-  final List<String> _languages = ['English', 'Arabic'];
+ final List<String> _languages = [LocaleKeys.english.tr(), LocaleKeys.arabic.tr()];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appBarWithActions(
         context,
-        title: "Settings",
+        title: LocaleKeys.settings.tr(),
         showActions: false,
       ),
       body: SingleChildScrollView(
@@ -86,7 +87,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 SizedBox(width: ResponsiveUI.spacing(context, 10)),
                 Text(
-                  "Language",
+                  LocaleKeys.language.tr(),
                   style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.w600,
                   ),
@@ -97,7 +98,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             SizedBox(height: ResponsiveUI.spacing(context, 10)),
 
             Text(
-              "Select Language",
+              LocaleKeys.select_language.tr(),
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                 color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7),
                 fontWeight: FontWeight.w500,
@@ -158,6 +159,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
   }
 
   void _showLanguageChangeSnackbar(String language) {
-    CustomSnackbar.showSuccess(context, "Language changed to $language");
+    CustomSnackbar.showSuccess(context, '${LocaleKeys.language_changed.tr()} $language');
   }
 }
