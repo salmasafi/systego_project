@@ -839,6 +839,72 @@
 
   "permissions_updated": "تم تحديث الصلاحيات بنجاح",
   "permissions_load_failed": "فشل في تحميل الصلاحيات",
-  "permissions_update_failed": "فشل في تحديث الصلاحيات"
+  "permissions_update_failed": "فشل في تحديث الصلاحيات",
+
+
+    "cashiers_title": "الكاشير",
+  "cashier_created_success": "تم إنشاء الكاشير بنجاح",
+  "cashier_updated_success": "تم تحديث الكاشير بنجاح",
+  "cashier_deleted_success": "تم حذف الكاشير بنجاح",
+  "cashier_activated": "تم تفعيل الكاشير بنجاح",
+  "cashier_deactivated": "تم إيقاف الكاشير بنجاح",
+
+  "no_cashiers": "لا يوجد كاشير",
+  "no_matching_cashiers": "لا توجد نتائج مطابقة",
+  "cashiers_all_caught_up": "لا يوجد كاشير حالياً",
+  "cashiers_try_adjusting_filters": "حاول تعديل عوامل التصفية",
+
+  "name": "الاسم",
+  "arabic_name": "الاسم بالعربية",
+  "enter_cashier_name": "أدخل اسم الكاشير",
+  "enter_arabic_name": "أدخل الاسم بالعربية",
+
+
+
+  "status": "الحالة",
+  "cashier_status": "حالة الكاشير",
+  "cashier_active": "الكاشير مفعل",
+
+
+
+  "users": "المستخدمون",
+  "users_count": "عدد المستخدمين",
+  "bank_accounts_count": "عدد الحسابات البنكية",
+
+  "additional_info": "معلومات إضافية",
+
+  "new_cashier": "كاشير جديد",
+  "edit_cashier": "تعديل الكاشير",
+  "create_cashier": "إنشاء كاشير",
+  "update_cashier": "تحديث الكاشير",
+
+
+   "enter_category_name": "أدخل اسم الفئة",
+
+  "select_status": "اختر الحالة",
+  "please_select_status": "يرجى اختيار الحالة",
+
+  "inactive": "غير نشط",
+
+  "new_expense_category": "فئة مصروف جديدة",
+  "edit_expense_category": "تعديل فئة المصروف",
+
+  "expense_categories_title": "فئات المصروفات",
+
+  "no_expense_categories": "لا توجد فئات مصروفات",
+  "no_matching_expense_categories": "لا توجد فئات مصروفات مطابقة",
+
+  "expense_categories_all_caught_up": "أنت على اطلاع كامل! لا توجد فئات مصروفات حالياً.",
+  "expense_categories_try_adjusting_filters": "حاول تعديل عوامل التصفية للعثور على فئات المصروفات.",
+
+  "delete_expense_category": "حذف فئة المصروف",
+  "delete_expense_category_message": "هل أنت متأكد من حذف فئة المصروف هذه؟",
+
+  "invalid_expense_category_id": "معرّف فئة المصروف غير صالح",
+
+  "expense_category_created_success": "تم إنشاء فئة المصروف بنجاح",
+  "expense_category_updated_success": "تم تحديث فئة المصروف بنجاح",
+  "expense_category_deleted_success": "تم حذف فئة المصروف بنجاح"
+
 
 }

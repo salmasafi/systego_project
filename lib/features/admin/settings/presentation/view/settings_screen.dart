@@ -15,24 +15,45 @@ class SettingsScreen extends StatefulWidget {
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
+  // Use language codes as values instead of translated strings
+  static const Map<String, String> _languageMap = {
+    'en': LocaleKeys.english,
+    'ar': LocaleKeys.arabic,
+  };
+
+  String? _selectedLanguageCode;
+  final List<MapEntry<String, String>> _languages = _languageMap.entries.toList();
+
+  @override
+  void initState() {
+    super.initState();
+    // Initialize with current locale
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      setState(() {
+        _selectedLanguageCode = context.locale.languageCode;
+      });
+    });
+  }
+
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    _selectedLanguage = context.locale.languageCode == 'ar'
-         ? LocaleKeys.arabic.tr()
-        : LocaleKeys.english.tr();
+    // Ensure selected language is updated if locale changes elsewhere
+    if (_selectedLanguageCode != context.locale.languageCode) {
+      _selectedLanguageCode = context.locale.languageCode;
+    }
   }
 
-  void _changeAppLanguage(String language) {
-    if (language == 'Arabic') {
+  void _changeAppLanguage(String languageCode) {
+    if (languageCode == 'ar') {
       context.setLocale(const Locale('ar'));
     } else {
       context.setLocale(const Locale('en'));
     }
+    setState(() {
+      _selectedLanguageCode = languageCode;
+    });
   }
-
-  String? _selectedLanguage;
- final List<String> _languages = [LocaleKeys.english.tr(), LocaleKeys.arabic.tr()];
 
   @override
   Widget build(BuildContext context) {
@@ -116,7 +137,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               child: DropdownButtonHideUnderline(
                 child: DropdownButton<String>(
-                  value: _selectedLanguage,
+                  value: _selectedLanguageCode,
                   isExpanded: true,
                   icon: Padding(
                     padding: EdgeInsets.only(right: 10),
@@ -125,24 +146,20 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       color: AppColors.primaryBlue,
                     ),
                   ),
-                  items: _languages.map((String language) {
+                  items: _languages.map((MapEntry<String, String> entry) {
                     return DropdownMenuItem<String>(
-                      value: language,
+                      value: entry.key, // Use language code as value
                       child: Padding(
                         padding: EdgeInsets.symmetric(horizontal: 10),
                         child: Text(
-                          language,
+                          entry.value.tr(), // Translate the display text
                           style: Theme.of(context).textTheme.bodyLarge,
                         ),
                       ),
                     );
                   }).toList(),
                   onChanged: (String? newValue) {
-                    if (newValue != null) {
-                      setState(() {
-                        _selectedLanguage = newValue;
-                      });
-
+                    if (newValue != null && newValue != _selectedLanguageCode) {
                       _changeAppLanguage(newValue);
                       _showLanguageChangeSnackbar(newValue);
                     }
@@ -158,7 +175,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
     );
   }
 
-  void _showLanguageChangeSnackbar(String language) {
-    CustomSnackbar.showSuccess(context, '${LocaleKeys.language_changed.tr()} $language');
+  void _showLanguageChangeSnackbar(String languageCode) {
+    final languageName = _languageMap[languageCode]?.tr() ?? languageCode;
+    CustomSnackbar.showSuccess(
+      context, 
+      '${LocaleKeys.language_changed.tr()} $languageName'
+    );
   }
 }

@@ -6,6 +6,7 @@
 // - Removed hardcoded notificationCount: 5; now dynamic.
 // - Added onPressed stub for notifications (implement navigation later).
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:systego/core/services/cache_helper.dart';
 import 'package:systego/features/admin/dashboard/presentation/view/dashboard_screens.dart';
@@ -21,20 +22,22 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  int _currentIndex = 0;
+ 
+
+  @override
+  Widget build(BuildContext context) {
+     int _currentIndex = 0;
   List<Widget> screens = [
-    DashboardScreen(),
+    DashboardScreen(key: ValueKey(context.locale.languageCode)),
     Container(),
     //POSHomeScreen(),
     //Container(),
     Container(),
   ];
-
-  @override
-  Widget build(BuildContext context) {
     return Scaffold(
       body: screens[_currentIndex],
       bottomNavigationBar: CustomBottomAppBar(
+         key: ValueKey(context.locale.languageCode),
         currentIndex: _currentIndex,
         onTap: (index) async {
           if (index == 2) {

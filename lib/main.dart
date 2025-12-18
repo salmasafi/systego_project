@@ -9,10 +9,12 @@ import 'package:systego/features/admin/auth/cubit/login_cubit.dart';
 import 'package:systego/features/admin/bank_account/cubit/bank_account_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:systego/core/constants/app_colors.dart';
+import 'package:systego/features/admin/cashier/cubit/cashier_cubit.dart';
 import 'package:systego/features/admin/coupon/cubit/coupon_cubit.dart';
 import 'package:systego/features/admin/currency/cubit/currency_cubit.dart';
 import 'package:systego/features/admin/department/cubit/department_cubit.dart';
 import 'package:systego/features/admin/discount/cubit/discount_cubit.dart';
+import 'package:systego/features/admin/expences_category/cubit/expences_categories_cubit.dart';
 import 'package:systego/features/admin/payment_methods/cubit/payment_method_cubit.dart';
 import 'package:systego/features/admin/permission/cubit/permission_cubit.dart';
 import 'package:systego/features/admin/popup/cubit/popup_cubit.dart';
@@ -117,6 +119,8 @@ class _MainAppState extends State<MainApp> {
         BlocProvider<ReasonCubit>(create: (context) => ReasonCubit()),
         BlocProvider<AdjustmentCubit>(create: (context) => AdjustmentCubit()),
         BlocProvider<PermissionsCubit>(create: (context) => PermissionsCubit()),
+        BlocProvider<CashierCubit>(create: (context) => CashierCubit()),
+        BlocProvider<ExpenseCategoryCubit>(create: (context) => ExpenseCategoryCubit()),
         BlocProvider<AdminsCubit>(create: (context) => AdminsCubit()),
         BlocProvider<PaymentMethodCubit>(
           create: (context) => PaymentMethodCubit(),
