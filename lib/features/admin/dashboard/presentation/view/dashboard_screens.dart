@@ -10,6 +10,7 @@ import 'package:systego/features/admin/currency/presentation/view/currencies_scr
 import 'package:systego/features/admin/department/presentation/view/departments_screen.dart';
 import 'package:systego/features/admin/discount/presentation/view/discounts_screen.dart';
 import 'package:systego/features/admin/expences_category/presentation/view/expences_categories_screen.dart';
+import 'package:systego/features/admin/pandel/presentation/view/pandel_screen.dart';
 import 'package:systego/features/admin/popup/presentation/view/popup_screen.dart';
 import 'package:systego/features/admin/reason/presentation/view/reasons_screen.dart';
 import 'package:systego/features/admin/taxes/presentation/view/taxes_screen.dart';
@@ -124,6 +125,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
       'label': LocaleKeys.expense_categories_title.tr(),
       'id': DashboardItem.expenseCategories,
     },
+    {
+      'icon': Icons.business,
+      'label': LocaleKeys.pandels_title.tr(),
+      'id': DashboardItem.pandels,
+    },
   ];
 
 
@@ -164,6 +170,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
       break;
     case DashboardItem.expenseCategories:
       Navigator.push(context, MaterialPageRoute(builder: (_) => const ExpenseCategoriesScreen()));  // Note: Fix 'expences' typo in import if it's ExpencesCategoriesScreen
+      break;
+
+    case DashboardItem.pandels:
+      Navigator.push(context, MaterialPageRoute(builder: (_) => const PandelScreen()));  // Note: Fix 'expences' typo in import if it's ExpencesCategoriesScreen
       break;
   }
 }
@@ -419,5 +429,6 @@ enum DashboardItem {
   admins,
   cashiers,
   expenseCategories,
+  pandels
   // Add more as needed
 }

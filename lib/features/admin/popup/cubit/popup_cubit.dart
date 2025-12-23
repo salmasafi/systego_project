@@ -80,6 +80,8 @@ Future<void> addPopup({
         if (base64ImageEn != null) "image_En": base64ImageEn,
       };
 
+      log("add popup Data ${data}");
+
       final response = await DioHelper.postData(
         url: EndPoint.addPopup,
         data: data,

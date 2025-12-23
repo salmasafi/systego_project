@@ -81,4 +81,45 @@ class ProductsCubit extends Cubit<ProductsState> {
       emit(ProductsError(errorMessage));
     }
   }
+
+  Future<void> getProducts() async {
+    emit(ProductsLoading());
+
+    try {
+      log('Starting products request...');
+
+      final response = await DioHelper.getData(url: EndPoint.getProducts);
+
+      log('Response received: ${response.statusCode}');
+
+      if (response.statusCode == 200) {
+        final data = response.data;
+        if (data['success'] == true && data['data'] != null) {
+          final productsJson = data['data']['products'] as List<dynamic>? ?? [];
+          final products = productsJson
+              .map((json) => Product.fromJson(json as Map<String, dynamic>))
+              .toList()
+              .reversed
+              .toList();
+          log('Products fetch successful');
+          log('Products ${products}');
+          log('Products ${products.map((p) => p.toJson())}');
+
+          emit(ProductsSuccess(products));
+        } else {
+          final errorMessage = data['message'] ?? 'Failed to fetch products';
+          log('Products fetch failed: $errorMessage');
+          emit(ProductsError(errorMessage));
+        }
+      } else {
+        final errorMessage = ErrorHandler.handleError(response);
+        log('Response error: $errorMessage');
+        emit(ProductsError(errorMessage));
+      }
+    } catch (error) {
+      log('Products fetch error caught: $error');
+      final errorMessage = ErrorHandler.handleError(error);
+      emit(ProductsError(errorMessage));
+    }
+  }
 }

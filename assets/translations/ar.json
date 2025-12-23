@@ -904,7 +904,90 @@
 
   "expense_category_created_success": "تم إنشاء فئة المصروف بنجاح",
   "expense_category_updated_success": "تم تحديث فئة المصروف بنجاح",
-  "expense_category_deleted_success": "تم حذف فئة المصروف بنجاح"
+  "expense_category_deleted_success": "تم حذف فئة المصروف بنجاح",
+
+
+  "close": "إغلاق",
+  "and_more": "و",
+  "more": "المزيد",
+  "new_label": "جديد",
+  "images": "صور",
+  "days": "أيام",
+  "days_ago": "منذ أيام",
+  "remove_all": "إزالة الكل",
+  "add_images": "إضافة صور",
+
+  "pandels_title": "الباندلز",
+  "no_pandels_found": "لم يتم العثور على باندلز",
+  "create_first_pandel": "أنشئ أول باندل للبدء",
+  "no_pandels_title": "لا توجد باندلز",
+  "no_pandels_message": "لم تقم بإنشاء أي باندلز بعد. أنشئ أول باندل الآن!",
+  "no_pandels_default_message": "تعذر تحميل الباندلز. يرجى المحاولة مرة أخرى.",
+  "all_pandels": "الكل",
+  "active_pandels": "النشطة",
+  "upcoming_pandels": "القادمة",
+  "no_active_pandels_title": "لا توجد باندلز نشطة",
+  "no_active_pandels_message": "لا توجد باندلز نشطة في الوقت الحالي.",
+  "no_upcoming_pandels_title": "لا توجد باندلز قادمة",
+  "no_upcoming_pandels_message": "لا توجد باندلز مجدولة قادمة.",
+
+  "new_pandel": "باندل جديد",
+  "edit_pandel": "تعديل الباندل",
+  "pandel_name": "اسم الباندل",
+  "enter_pandel_name": "أدخل اسم الباندل",
+  "products_ids": "معرّفات المنتجات",
+  "enter_products_ids_hint": "أدخل معرّفات المنتجات مفصولة بفواصل (مثال: 68db92ebec4ef4addafb4b44, 68db9a4ecfc4b7c7efe45e46)",
+  "start_date": "تاريخ البداية",
+  "select_start_date": "اختر تاريخ البداية",
+  "end_date": "تاريخ النهاية",
+  "select_end_date": "اختر تاريخ النهاية",
+  "price": "السعر",
+  "enter_price": "أدخل السعر",
+  "pandel_images": "صور الباندل",
+  "tap_to_upload_images": "اضغط لرفع الصور",
+  "tap_to_add_more_images": "اضغط لإضافة المزيد من الصور",
+  "selected_images_count": "تم اختيار {count} صورة",
+  "max_images_warning": "الحد الأقصى المسموح به {max} صور",
+  "saving_pandel": "جاري حفظ الباندل...",
+  "save_pandel": "حفظ الباندل",
+  "updating_pandel": "جاري تحديث الباندل...",
+  "update_pandel": "تحديث الباندل",
+
+  "starts": "يبدأ",
+  "ends": "ينتهي",
+  "upcoming": "قادم",
+  "expired": "منتهي",
+  "ends_in": "ينتهي خلال",
+  "starts_in": "يبدأ خلال",
+
+  "warning_enter_pandel_name": "يرجى إدخال اسم الباندل",
+  "warning_enter_products_ids": "يرجى إدخال معرّفات المنتجات",
+  "warning_enter_valid_products_ids": "يرجى إدخال معرّفات منتجات صحيحة",
+  "warning_select_start_date": "يرجى اختيار تاريخ البداية",
+  "warning_select_end_date": "يرجى اختيار تاريخ النهاية",
+  "warning_end_date_before_start": "يجب أن يكون تاريخ النهاية بعد تاريخ البداية",
+  "warning_select_at_least_one_image": "يرجى اختيار صورة واحدة على الأقل",
+  "warning_enter_price": "يرجى إدخال السعر",
+  "warning_enter_valid_price": "يرجى إدخال سعر صالح",
+
+  "invalid_pandel_id": "معرّف الباندل غير صالح",
+  "delete_pandel_title": "حذف الباندل",
+  "delete_pandel_message": "هل أنت متأكد أنك تريد حذف هذا الباندل؟",
+  "delete_pandel_warning_message": "لا يمكن التراجع عن هذا الإجراء. سيتم حذف جميع بيانات الباندل بما في ذلك الصور وربط المنتجات نهائيًا.",
+  "delete_warning_title": "تحذير: إجراء لا يمكن التراجع عنه",
+
+  "pandel_created_success": "تم إنشاء الباندل بنجاح",
+  "pandel_updated_success": "تم تحديث الباندل بنجاح",
+  "pandel_deleted_success": "تم حذف الباندل بنجاح",
+  "pandel_not_found": "الباندل غير موجود",
+
+  "select_products": "اختر منتجات",
+
+  "warning_select_at_least_two_products": "يرجى اختيار منتجين على الأقل",
+
+  "selected": "تم الاختيار",
+"done": "تم"
+
 
 
 }

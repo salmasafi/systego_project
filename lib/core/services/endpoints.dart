@@ -197,4 +197,12 @@ class EndPoint {
   static String updateExpencesCategory(String id) => '/api/admin/expensecategory/$id';
   static String deleteExpencesCategory(String id) => '/api/admin/expensecategory/$id';
 
+
+  /// pandels
+  static const String getAllPandels = '/api/admin/pandel';
+  static String getPandelById(String id) => '/api/admin/pandel/$id';
+  static const String addPandel = '/api/admin/pandel';
+  static String updatePandel(String id) => '/api/admin/pandel/$id';
+  static String deletePandel(String id) => '/api/admin/pandel/$id';
+
 }
