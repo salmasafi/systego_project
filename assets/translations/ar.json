@@ -986,7 +986,116 @@
   "warning_select_at_least_two_products": "يرجى اختيار منتجين على الأقل",
 
   "selected": "تم الاختيار",
-"done": "تم"
+"done": "تم",
+
+
+
+  "new_customer": "عميل جديد",
+  "edit_customer": "تعديل العميل",
+  "customers_title": "العملاء",
+
+  "customer_information": "معلومات العميل",
+  "financial_information": "المعلومات المالية",
+  "basic_information": "المعلومات الأساسية",
+  "address_information": "معلومات العنوان",
+  "additional_information": "معلومات إضافية",
+
+  "customer_name": "اسم العميل",
+  "enter_customer_name": "أدخل اسم العميل",
+  "enter_email": "أدخل البريد الإلكتروني",
+  "enter_address": "أدخل العنوان",
+  "enter_country": "أدخل الدولة",
+  "enter_city": "أدخل المدينة",
+  "customer_group": "مجموعة العملاء",
+  "enter_customer_group_id": "أدخل رقم مجموعة العملاء",
+
+  "due_status": "حالة المديونية",
+  "customer_has_due_amount": "على العميل مبلغ مستحق",
+  "amount_due": "المبلغ المستحق",
+  "enter_amount_due": "أدخل المبلغ المستحق",
+  "total_points": "إجمالي النقاط",
+  "enter_total_points": "أدخل إجمالي النقاط",
+  "has_due_amount": "عليه مديونية",
+  "due_amount": "قيمة المديونية",
+  "enter_due_amount": "أدخل قيمة المديونية",
+  "total_points_earned": "إجمالي النقاط المكتسبة",
+  "enter_points": "أدخل النقاط",
+  "points": "النقاط",
+
+  "customer_group_id": "رقم مجموعة العملاء",
+
+  "updating_customer": "جارٍ تحديث بيانات العميل...",
+  "saving_customer": "جارٍ حفظ بيانات العميل...",
+  "update_customer": "تحديث العميل",
+  "save_customer": "حفظ العميل",
+
+  "customer_id": "رقم العميل",
+  "last_updated": "آخر تحديث",
+  "updated_at": "تم التحديث في",
+  "version": "الإصدار",
+  "member_since": "عضو منذ",
+
+  "warning_enter_customer_name": "يرجى إدخال اسم العميل",
+  "warning_enter_phone_number": "يرجى إدخال رقم الهاتف",
+  "warning_enter_country": "يرجى إدخال الدولة",
+  "warning_enter_city": "يرجى إدخال المدينة",
+  "warning_enter_valid_email": "يرجى إدخال بريد إلكتروني صحيح",
+  "warning_enter_valid_amount": "يرجى إدخال مبلغ صحيح",
+  "warning_enter_valid_points": "يرجى إدخال نقاط صحيحة",
+
+  "customer_not_found": "العميل غير موجود",
+  "customer_created_success": "تم إنشاء العميل بنجاح",
+  "customer_updated_success": "تم تحديث بيانات العميل بنجاح",
+  "customer_deleted_success": "تم حذف العميل بنجاح",
+
+  "delete_customer_title": "حذف العميل",
+  "delete_customer_message": "هل أنت متأكد أنك تريد حذف هذا العميل؟",
+
+  "no_customers_title": "لا يوجد عملاء بعد",
+  "no_customers_message": "ابدأ بإضافة أول عميل إلى النظام",
+  "no_customers_found": "لم يتم العثور على عملاء",
+  "create_first_customer": "أنشئ أول عميل للبدء",
+
+  "not_provided": "غير متوفر",
+  "location": "الموقع",
+  "due_payment": "مبلغ مستحق",
+  "good_standing": "وضع جيد",
+  "has_due": "عليه مديونية",
+  "no_due": "لا توجد مديونية",
+  "no_email": "لا يوجد بريد إلكتروني",
+  "no_address": "لا يوجد عنوان",
+
+  "invalid_customer_id": "رقم عميل غير صالح",
+
+  "yes": "نعم",
+  "no": "لا",
+
+
+   "roles_title": "الأدوار والصلاحيات",
+  "roles_load_failed": "فشل تحميل الأدوار. يرجى المحاولة مرة أخرى.",
+  "role_updated": "تم تحديث الدور بنجاح!",
+  "role_update_failed": "فشل تحديث الدور.",
+  "role_created": "تم إنشاء الدور بنجاح!",
+  "role_create_failed": "فشل إنشاء الدور.",
+  "role_deleted": "تم حذف الدور بنجاح!",
+  "role_delete_failed": "فشل حذف الدور.",
+  "no_roles": "لا توجد أدوار",
+  "no_matching_roles": "لا توجد أدوار مطابقة",
+  "roles_all_caught_up": "أنت على اطلاع! لم يتم إنشاء أي أدوار بعد.",
+  "roles_try_adjusting_filters": "جرّب تعديل عوامل التصفية أو عبارة البحث.",
+  "permissions": "الصلاحيات",
+  "modules": "الوحدات",
+  "actions": "الإجراءات",
+  "delete_role": "حذف الدور",
+  "delete_role_message": "هل أنت متأكد من رغبتك في حذف هذا الدور؟",
+  "invalid_role_id": "معرّف الدور غير صالح",
+
+
+   "role_name": "اسم الدور",
+  "role_name_hint": "أدخل اسم الدور",
+  "edit_role_permissions": "تعديل صلاحيات الدور",
+  "add_new_role": "إضافة دور جديد"
+
 
 
 

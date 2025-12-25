@@ -12,6 +12,7 @@ import 'package:systego/core/constants/app_colors.dart';
 import 'package:systego/features/admin/cashier/cubit/cashier_cubit.dart';
 import 'package:systego/features/admin/coupon/cubit/coupon_cubit.dart';
 import 'package:systego/features/admin/currency/cubit/currency_cubit.dart';
+import 'package:systego/features/admin/customer/cubit/customer_cubit.dart';
 import 'package:systego/features/admin/department/cubit/department_cubit.dart';
 import 'package:systego/features/admin/discount/cubit/discount_cubit.dart';
 import 'package:systego/features/admin/expences_category/cubit/expences_categories_cubit.dart';
@@ -21,6 +22,7 @@ import 'package:systego/features/admin/permission/cubit/permission_cubit.dart';
 import 'package:systego/features/admin/popup/cubit/popup_cubit.dart';
 import 'package:systego/features/admin/product/cubit/get_products_cubit/product_cubit.dart';
 import 'package:systego/features/admin/reason/cubit/reason_cubit.dart';
+import 'package:systego/features/admin/roloes_and_permissions/cubit/roles_cubit.dart';
 import 'package:systego/features/admin/taxes/cubit/taxes_cubit.dart';
 import 'package:systego/features/admin/variations/cubit/variation_cubit.dart';
 import 'package:systego/translations/codegen_loader.g.dart';
@@ -124,6 +126,8 @@ class _MainAppState extends State<MainApp> {
         BlocProvider<PandelCubit>(create: (context) => PandelCubit()),
         BlocProvider<ExpenseCategoryCubit>(create: (context) => ExpenseCategoryCubit()),
         BlocProvider<AdminsCubit>(create: (context) => AdminsCubit()),
+        BlocProvider<CustomerCubit>(create: (context) => CustomerCubit()),
+        BlocProvider<RolesCubit>(create: (context) => RolesCubit()),
         BlocProvider<PaymentMethodCubit>(
           create: (context) => PaymentMethodCubit(),
         ),

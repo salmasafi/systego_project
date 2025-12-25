@@ -205,4 +205,22 @@ class EndPoint {
   static String updatePandel(String id) => '/api/admin/pandel/$id';
   static String deletePandel(String id) => '/api/admin/pandel/$id';
 
+
+  /// customers
+  static const String getAllCustomers = '/api/admin/customer';
+  static String getCustomerById(String id) => '/api/admin/customer/$id';
+  static const String addCustomer = '/api/admin/customer';
+  static String updateCustomer(String id) => '/api/admin/customer/$id';
+  static String deleteCustomer(String id) => '/api/admin/customer/$id';
+  static String createCustomerGroup(String id) => '/api/admin/customer-group';
+  static String getCustomerDue(String id) => '/api/admin/customer/due';
+
+
+  /// permission
+  static const String getAllRoles = '/api/admin/permission';
+  static String getAllRoleSelection(String id) => '/api/admin/permission/selection';
+  static const String createRolePermission = '/api/admin/permission';
+  static String deleteRole(String id) => '/api/admin/permission/$id';
+  static String updateRole(String id) => '/api/admin/permission/$id';
+
 }

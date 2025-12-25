@@ -7,12 +7,14 @@ import 'package:systego/features/admin/bank_account/presentation/view/bank_accou
 import 'package:systego/features/admin/cashier/presentation/view/cashier_screen.dart';
 import 'package:systego/features/admin/coupon/presentation/view/coupons_screen.dart';
 import 'package:systego/features/admin/currency/presentation/view/currencies_screen.dart';
+import 'package:systego/features/admin/customer/presentation/view/customers_screens.dart';
 import 'package:systego/features/admin/department/presentation/view/departments_screen.dart';
 import 'package:systego/features/admin/discount/presentation/view/discounts_screen.dart';
 import 'package:systego/features/admin/expences_category/presentation/view/expences_categories_screen.dart';
 import 'package:systego/features/admin/pandel/presentation/view/pandel_screen.dart';
 import 'package:systego/features/admin/popup/presentation/view/popup_screen.dart';
 import 'package:systego/features/admin/reason/presentation/view/reasons_screen.dart';
+import 'package:systego/features/admin/roloes_and_permissions/presentation/view/roles_screen.dart';
 import 'package:systego/features/admin/taxes/presentation/view/taxes_screen.dart';
 import 'package:systego/features/admin/variations/presentation/view/variation_screen.dart';
 import 'package:systego/features/admin/warehouses/view/warehouses_screen.dart';
@@ -130,6 +132,21 @@ class _DashboardScreenState extends State<DashboardScreen> {
       'label': LocaleKeys.pandels_title.tr(),
       'id': DashboardItem.pandels,
     },
+     {
+      'icon': Icons.business,
+      'label': LocaleKeys.customers_title.tr(),
+      'id': DashboardItem.customers,
+    },
+     {
+      'icon': Icons.business,
+      'label': LocaleKeys.roles_title.tr(),
+      'id': DashboardItem.roles,
+    },
+    {
+      'icon': Icons.business,
+      'label': LocaleKeys.payment_methods_screen_title.tr(),
+      'id': DashboardItem.payment,
+    },
   ];
 
 
@@ -174,6 +191,18 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
     case DashboardItem.pandels:
       Navigator.push(context, MaterialPageRoute(builder: (_) => const PandelScreen()));  // Note: Fix 'expences' typo in import if it's ExpencesCategoriesScreen
+      break;
+
+    case DashboardItem.customers:
+      Navigator.push(context, MaterialPageRoute(builder: (_) => const CustomerScreen()));  // Note: Fix 'expences' typo in import if it's ExpencesCategoriesScreen
+      break;
+
+    case DashboardItem.roles:
+      Navigator.push(context, MaterialPageRoute(builder: (_) => const RolesScreen()));  // Note: Fix 'expences' typo in import if it's ExpencesCategoriesScreen
+      break;
+
+    case DashboardItem.payment:
+      Navigator.push(context, MaterialPageRoute(builder: (_) => const PaymentMethodsScreen()));  // Note: Fix 'expences' typo in import if it's ExpencesCategoriesScreen
       break;
   }
 }
@@ -429,6 +458,8 @@ enum DashboardItem {
   admins,
   cashiers,
   expenseCategories,
-  pandels
-  // Add more as needed
+  pandels,
+  customers,
+  roles,
+  payment
 }
