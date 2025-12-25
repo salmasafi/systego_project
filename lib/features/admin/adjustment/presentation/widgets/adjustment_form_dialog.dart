@@ -15,7 +15,6 @@ import 'package:systego/features/admin/warehouses/cubit/warehouse_state.dart';
 import 'package:systego/generated/locale_keys.g.dart';
 import '../../../../../core/constants/app_colors.dart';
 import '../../../../../core/utils/responsive_ui.dart';
-import '../../../../../core/utils/validators.dart';
 import '../../../../../core/widgets/custom_loading/build_overlay_loading.dart';
 import '../../../../../core/widgets/custom_snack_bar/custom_snackbar.dart';
 import '../../../../../core/widgets/custom_textfield/build_text_field.dart';
@@ -145,10 +144,6 @@ void didChangeDependencies() {
 
   @override
   Widget build(BuildContext context) {
-    final maxWidth = ResponsiveUI.isMobile(context)
-        ? ResponsiveUI.screenWidth(context) * 0.95
-        : ResponsiveUI.contentMaxWidth(context);
-    final maxHeight = ResponsiveUI.screenHeight(context) * 0.85;
     return ScaleTransition(
       scale: _scaleAnimation,
       child: Dialog(

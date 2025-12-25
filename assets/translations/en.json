@@ -1118,6 +1118,65 @@
   "role_name": "Role Name",
   "role_name_hint": "Enter Role Name",
   "edit_role_permissions": "Edit Role Permissions",
-  "add_new_role": "Add New Role"
+  "add_new_role": "Add New Role",
+
+
+  "revenues_title": "Revenues",
+  "revenue_created_successfully": "Revenue created successfully!",
+  "revenue_updated_successfully": "Revenue updated successfully!",
+  "revenue_deleted_successfully": "Revenue deleted successfully!",
+  "no_revenues": "No Revenues",
+  "no_matching_revenues": "No Matching Revenues",
+  "revenues_all_caught_up": "All revenues are caught up!",
+  "revenues_try_adjusting_filters": "Try adjusting your search or filters",
+
+  
+  "revenue_name": "Revenue Name",
+  "hint_revenue_name": "Enter revenue name",
+  "currency_symbol": "EGP",
+  "please_enter_amount": "Please enter amount",
+  "amount_must_be_positive": "Amount must be positive",
+  
+  "select_category": "Select Category",
+  "please_select_category": "Please select a category",
+  
+  "financial_account": "Financial Account",
+  "select_financial_account": "Select Financial Account",
+  "please_select_financial_account": "Please select a financial account",
+
+  "enter_note": "Please enter a note",
+  "no_note": "No note provided",
+  
+  "created_by": "Created By",
+  "created_date": "Created Date",
+  "updated_date": "Updated Date",
+  
+  "edit_revenue": "Edit Revenue",
+  "new_revenue": "New Revenue",
+  "update_revenue": "Update Revenue",
+  "create_revenue": "Create Revenue",
+  
+  "delete_revenue": "Delete Revenue",
+  "delete_revenue_message": "Are you sure you want to delete this revenue?",
+  "invalid_revenue_id": "Invalid revenue ID",
+  
+  "loading": "Loading...",
+  "deleting": "Deleting...",
+
+
+    "no_customer_groups": "No Customer Groups",
+  "no_matching_customer_groups": "No Matching Customer Groups",
+  "customer_groups_all_caught_up": "You're all caught up! No customer groups found.",
+  "customer_groups_try_adjusting_filters": "Try adjusting your search or filters.",
+
+  "customer_groups_title": "Customer Groups",
+  "new_customer_group": "New Customer Group",
+  "customer_group_name": "Customer Group Name",
+  "hint_customer_group_name": "Enter group name",
+
+  "create_customer_group": "Create Customer Group",
+  "customer_group_created_success": "Customer group created successfully!",
+  "customer_group_not_found": "Customer group not found"
+
 
 }

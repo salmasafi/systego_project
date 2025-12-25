@@ -91,3 +91,34 @@ final class UpdateCustomerDueError extends CustomerState {
   final String error;
   UpdateCustomerDueError(this.error);
 }
+
+// Customer Group States (new)
+final class GetCustomerGroupsLoading extends CustomerState {}
+final class GetCustomerGroupsSuccess extends CustomerState {
+  final List<CustomerGroup> groups;
+  GetCustomerGroupsSuccess(this.groups);
+}
+final class GetCustomerGroupsError extends CustomerState {
+  final String error;
+  GetCustomerGroupsError(this.error);
+}
+
+final class GetCustomerGroupByIdLoading extends CustomerState {}
+final class GetCustomerGroupByIdSuccess extends CustomerState {
+  final CustomerGroup group;
+  GetCustomerGroupByIdSuccess(this.group);
+}
+final class GetCustomerGroupByIdError extends CustomerState {
+  final String error;
+  GetCustomerGroupByIdError(this.error);
+}
+
+final class CreateCustomerGroupLoading extends CustomerState {}
+final class CreateCustomerGroupSuccess extends CustomerState {
+  final String message;
+  CreateCustomerGroupSuccess(this.message);
+}
+final class CreateCustomerGroupError extends CustomerState {
+  final String error;
+  CreateCustomerGroupError(this.error);
+}

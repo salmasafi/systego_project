@@ -212,7 +212,9 @@ class EndPoint {
   static const String addCustomer = '/api/admin/customer';
   static String updateCustomer(String id) => '/api/admin/customer/$id';
   static String deleteCustomer(String id) => '/api/admin/customer/$id';
-  static String createCustomerGroup(String id) => '/api/admin/customer-group';
+  static String createCustomerGroup = '/api/admin/pos_customer';
+  static const String getCustomerGroup = '/api/admin/customer/groups';
+  static String getCustomerGroupById(String id) => '/api/admin/groups/$id';
   static String getCustomerDue(String id) => '/api/admin/customer/due';
 
 
@@ -222,5 +224,13 @@ class EndPoint {
   static const String createRolePermission = '/api/admin/permission';
   static String deleteRole(String id) => '/api/admin/permission/$id';
   static String updateRole(String id) => '/api/admin/permission/$id';
+
+  /// revenue
+  static const String getAllRevenues = '/api/admin/revenue';
+  static const String addRevenue = '/api/admin/revenue';
+  static String deleteRevenue(String id) => '/api/admin/revenue/$id';
+  static String getRevenueById(String id) => '/api/admin/revenue/$id';
+  static String updateRevenue(String id) => '/api/admin/revenue/$id';
+  static String getRevenueSelection = '/api/admin/revenue/selection';
 
 }

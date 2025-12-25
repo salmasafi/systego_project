@@ -1094,7 +1094,63 @@
    "role_name": "اسم الدور",
   "role_name_hint": "أدخل اسم الدور",
   "edit_role_permissions": "تعديل صلاحيات الدور",
-  "add_new_role": "إضافة دور جديد"
+  "add_new_role": "إضافة دور جديد",
+
+    "revenues_title": "الإيرادات",
+  "revenue_created_successfully": "تم إنشاء الإيراد بنجاح!",
+  "revenue_updated_successfully": "تم تحديث الإيراد بنجاح!",
+  "revenue_deleted_successfully": "تم حذف الإيراد بنجاح!",
+  "no_revenues": "لا توجد إيرادات",
+  "no_matching_revenues": "لا توجد إيرادات مطابقة",
+  "revenues_all_caught_up": "تمت متابعة جميع الإيرادات!",
+  "revenues_try_adjusting_filters": "جرّب تعديل البحث أو عوامل التصفية",
+
+  "revenue_name": "اسم الإيراد",
+  "hint_revenue_name": "أدخل اسم الإيراد",
+  "currency_symbol": "ج.م",
+  "please_enter_amount": "يرجى إدخال المبلغ",
+  "amount_must_be_positive": "يجب أن يكون المبلغ موجبًا",
+
+  "select_category": "اختر الفئة",
+  "please_select_category": "يرجى اختيار فئة",
+
+  "financial_account": "الحساب المالي",
+  "select_financial_account": "اختر حسابًا ماليًا",
+  "please_select_financial_account": "يرجى اختيار حساب مالي",
+
+  "enter_note": "يرجى إدخال ملاحظة",
+  "no_note": "لا توجد ملاحظة",
+
+  "created_by": "تم الإنشاء بواسطة",
+  "created_date": "تاريخ الإنشاء",
+  "updated_date": "تاريخ التحديث",
+
+  "edit_revenue": "تعديل الإيراد",
+  "new_revenue": "إيراد جديد",
+  "update_revenue": "تحديث الإيراد",
+  "create_revenue": "إنشاء إيراد",
+
+  "delete_revenue": "حذف الإيراد",
+  "delete_revenue_message": "هل أنت متأكد أنك تريد حذف هذا الإيراد؟",
+  "invalid_revenue_id": "معرّف الإيراد غير صالح",
+
+  "loading": "جارٍ التحميل...",
+  "deleting": "جارٍ الحذف...",
+
+
+   "no_customer_groups": "لا توجد مجموعات عملاء",
+  "no_matching_customer_groups": "لا توجد مجموعات عملاء مطابقة",
+  "customer_groups_all_caught_up": "أنت على اطلاع كامل! لا توجد مجموعات عملاء.",
+  "customer_groups_try_adjusting_filters": "حاول تعديل البحث أو عوامل التصفية.",
+
+  "customer_groups_title": "مجموعات العملاء",
+  "new_customer_group": "مجموعة عملاء جديدة",
+  "customer_group_name": "اسم مجموعة العملاء",
+  "hint_customer_group_name": "أدخل اسم المجموعة",
+
+  "create_customer_group": "إنشاء مجموعة عملاء",
+  "customer_group_created_success": "تم إنشاء مجموعة العملاء بنجاح!",
+  "customer_group_not_found": "لم يتم العثور على مجموعة العملاء"
 
 
 
